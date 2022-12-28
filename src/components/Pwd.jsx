@@ -1,10 +1,28 @@
 import React from 'react'
 import chef from '../assets/chef1.jpg'
+import { Player } from '@lottiefiles/react-lottie-player';
+import animation from '../assets/102780-cateringfork-knife.json';
 
 const Pwd = () => {
     return (
         <div className='container'>
+            <Player
+                autoplay
+                loop
+                src={animation}
+                style={{ height: '200px', width: '200px' }}
+                className="animation1"
+            >
+            </Player>
             <h1>Commander votre repas en ligne</h1>
+            <Player
+                autoplay
+                loop
+                src={animation}
+                style={{ height: '200px', width: '200px' }}
+                className="animation2"
+            >
+            </Player>
             <div className="content">
                 <div className="image">
                     <img src={chef} alt="chef cuisine" />

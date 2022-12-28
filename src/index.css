@@ -32,6 +32,21 @@ code {
     background-position: center;
 }
 
+.animation1{
+    position: absolute;
+    top: 0;
+    margin-left: 10rem !important;
+    transform: translateY(4rem);
+}
+
+.animation2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10rem !important;
+    transform: translateY(4rem);
+}
+
 .container h1{
     position: absolute;
     top: 0;
@@ -332,6 +347,20 @@ code {
     .image{
         margin-top: 10rem;
     }
+    .animation1{
+        position: absolute;
+        top: 0;
+        margin-top: 20rem !important;
+        margin-left: 6rem !important;
+        transform: translateY(4rem);
+    }
+    .animation2{
+        position: absolute;
+        top: 0;
+        margin-top: 20rem !important;
+        margin-right: 6rem !important;
+        transform: translateY(4rem);
+    }
 }
 
 @media (max-width: 500px){
@@ -346,6 +375,22 @@ code {
     }
     .container h1{
         font-size: 2rem;
+    }
+    .animation1{
+        position: absolute;
+        top: 0;
+        margin-top: 15rem !important;
+        margin-left: 6rem !important;
+        transform: translateY(4rem);
+    }
+    .animation2{
+       display: none;
+    }
+}
+
+@media (max-width: 400px){
+    .container h1{
+       margin-top: 10rem;
     }
 }
 
